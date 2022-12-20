@@ -1,7 +1,8 @@
 const {Schema, model} = require('mongoose')
 
 const todoSchema = new Schema({
-    name: String
+    name: String,
+    completed: Boolean
 }, {
     timestamps:true
 })
